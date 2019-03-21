@@ -18,3 +18,13 @@ C:\Users\TheJ\source\repos\procrastn8-games\D-DCompanionToolLauncher\DnDCompanio
 C:\Users\TheJ\source\repos\procrastn8-games\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.csproj.CoreCompileInputs.cache
 C:\Users\TheJ\source\repos\procrastn8-games\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.exe
 C:\Users\TheJ\source\repos\procrastn8-games\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.pdb
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\bin\Debug\DnDCompanionLauncher.exe.config
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\bin\Debug\DnDCompanionLauncher.exe
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\bin\Debug\DnDCompanionLauncher.pdb
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.csprojAssemblyReference.cache
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.Form1.resources
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.Properties.Resources.resources
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.csproj.GenerateResource.cache
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.csproj.CoreCompileInputs.cache
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.exe
+C:\Users\TheJ\Documents\GitHub\D-DCompanionToolLauncher\DnDCompanionLauncher\DnDCompanionLauncher\obj\Debug\DnDCompanionLauncher.pdb

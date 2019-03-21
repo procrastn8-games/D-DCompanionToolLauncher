@@ -22,14 +22,15 @@ namespace DnDCompanionLauncher
         public Form1()
         {
             InitializeComponent();
-            this.Show();
-            this.Refresh();
-            Application.DoEvents();
+
             Version current = GetFileVersion(pathToLocal);
             Version server = GitFileVersion(pathToServerRefrence);
 
             if (current < server)
             {
+                this.Show();
+                this.Refresh();
+                Application.DoEvents();
                 Download(pathToServerRelease);
             }
 
@@ -57,10 +58,28 @@ namespace DnDCompanionLauncher
         {
             using (var client = new WebClient())
             {
-                string refrence = Path.GetTempPath() + Path.GetRandomFileName()+"__.exe";
+                string refrence = Path.GetTempPath() + Path.GetRandomFileName().Replace(".","")+"__.exe";
                 client.DownloadFile(pathToServerRelease, refrence);
-                File.Delete(pathToLocal);
-                File.Copy(refrence, pathToLocal, true);
+                try
+                {
+                    File.Delete(pathToLocal);
+
+                }
+                catch (Exception)
+                {
+
+                }
+                try
+                {
+
+                File.Copy(refrence, pathToLocal,true);
+                }
+                catch (Exception)
+                {
+                    MessageBox.Show("Failed to get admin rights, running in portable mode.");
+                    Process.Start(refrence);
+                }
+         
             }
         }
 
@@ -82,7 +101,7 @@ namespace DnDCompanionLauncher
         {
             try
             {
-            Directory.CreateDirectory(Path.GetFullPath(pathToLocal));
+            //Directory.CreateDirectory(Path.GetFullPath(pathToLocal));
 
             }
             catch (Exception)
